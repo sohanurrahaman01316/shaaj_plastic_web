@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--------- Bootstrap link  ------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--------- Bootstrap link  ------------>
+  
+  <!------------ css link ------------>
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="responsive.css">
+  <!------------ css link ------------>
+
+  <!--------- google fonts --------->
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!--------- google fonts --------->
+  
+
+  <!--------- font Awesome link  ------------>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!--------- font Awesome link  ------------>
+
+
+<style>
+  .popup{
+    width: 90%;
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.left-item img{
+  width:220px;
+  height: 220px;
+}
+
+.left-item li{
+  line-height: 35px;
+}
+.right-item input{
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  width:100%;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  
+}
+
+.right-item button{
+  width:100%;
+  outline: none;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #0e8ddb;
+  color: white;
+  font-size: 20px;
+  font-family: "oswald";
+  transition:all .2s ease-in-out;
+}
+
+.close-icon{
+  position: absolute;
+  right:5px;
+  top: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+</style>
+ 
+
+
+</head>
+<body>
+
+ <section class="my-5">
+  <div class="popup container my-5" data-aos="fade-left">
+    <div class="popup-wrapper position-relative">
+      <div class="close-icon">
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="row ">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="left-item">
+                <img src="images/bottomH.jpg" alt="">
+                <h4 style="color: gray;">FRC Frock Hanger</h4>
+                <b style="color: rgb(87, 85, 85); display: block;">BDT 100 / Piece</b>
+                <li><span>Sold By- <b>Shaaj Plastic Industries</b></span> <br></li>
+                <li><span>Material-<b>Plastic and SS</b></span> <br></li>
+                <li><span>Color-<b>White</b></span><br></li>
+                <li><span>Application-<b>Garment Shop</b></span><br></li>
+                <li><span>Brand-<b>Navin Plastic Tech</b></span><br></li>
+                <li><span>Number Of Strips-<b>3</b></span><br></li>               
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 ">
+              <div class="right-item ">
+                <h3 style="font-family: 'oswald'; margin-top: 30px;">Get Best Quote from 'Shaaj Plastic Industries"</h3>
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email">
+                <input type="tel" placeholder="Enter Your Phone Number">
+                <button>Submit</button>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+  </div>
+ </section>
+
+</body>
+</html>
+
+
+
